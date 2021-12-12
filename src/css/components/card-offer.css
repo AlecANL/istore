@@ -1,0 +1,31 @@
+.card-offer {
+  display: flex;
+  font-size: 0.875rem;
+  background: linear-gradient(105.15deg, #5465ff 0%, #b654ef 100%);
+  padding: 1rem;
+  border-radius: 0.25rem;
+  max-inline-size: 41.9375rem;
+}
+.card-image img {
+  inline-size: 5rem;
+  block-size: 5rem;
+}
+.card-description {
+  color: var(--white);
+}
+
+@media screen and (min-width: 768px) {
+  .card-offer {
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    padding-inline: 2.5rem;
+  }
+  .card-image img {
+    inline-size: 14rem;
+    block-size: 14rem;
+  }
+  .card-description h3 {
+    font-size: 2.125rem;
+  }
+}

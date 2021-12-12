@@ -1,0 +1,27 @@
+@import url('./navigation.css');
+
+.header {
+  padding: 1rem;
+  position: sticky;
+  inset-block-start: 0;
+  background-color: var(--bgshade);
+}
+.header-content {
+  display: grid;
+  grid-template-columns: 1fr 50px;
+  grid-template-areas: 'searchBox menuIcon' 'btnCart btnCart';
+  gap: 1rem;
+}
+
+.logo {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .header-content {
+    display: flex;
+    align-items: center;
+  }
+  .logo {
+    display: block;
+  }
+}

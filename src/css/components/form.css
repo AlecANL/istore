@@ -1,0 +1,10 @@
+.search-box {
+  display: flex;
+  gap: 0.5rem;
+  grid-area: searchBox;
+  flex: 1;
+  order: 3;
+}
+.search-box input {
+  inline-size: 100%;
+}

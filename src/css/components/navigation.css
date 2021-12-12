@@ -1,0 +1,14 @@
+.navigation {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .navigation {
+    display: block;
+    order: 1;
+  }
+  .navigation__list {
+    display: flex;
+    gap: 3rem;
+  }
+}
