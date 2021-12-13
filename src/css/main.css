@@ -8,5 +8,10 @@
 @import url('./components/card-offer.css');
 @import url('./components/product.css');
 @import url('./components/input.css');
+@import url('./components/btn-quantity.css');
+@import url('./components/table.css');
+@import url('./components/product-cart.css');
+@import url('./components/ellipsis.css');
+@import url('./components/checkout-form.css');
 @import url('./pages/current-product.css');
 @import url('./pages/checkout.page.css');

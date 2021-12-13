@@ -4,10 +4,16 @@
   padding: 1rem;
 }
 
+.hero-content {
+  overflow: hidden;
+  display: flex;
+  gap: 1rem;
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     padding: 2rem;
-    block-size: calc(80vh - 200px);
+    block-size: 410px;
   }
   .hero .wrapper {
     block-size: 100%;

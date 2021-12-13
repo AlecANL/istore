@@ -1,0 +1,29 @@
+.simple-ellipsis {
+  white-space: nowrap;
+  min-width: 0;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.complex-ellipsis {
+  display: block;
+  display: -webkit-box;
+  max-width: 100%;
+  line-height: 1;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.l-clamp-1 {
+  -webkit-line-clamp: 1;
+}
+
+.l-clamp-2 {
+  -webkit-line-clamp: 2;
+}
+
+.l-clamp-3 {
+  -webkit-line-clamp: 3;
+}

@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+  .checkout-form {
+    padding-block: 1.5rem;
+  }
+  .checkout-form h3 {
+    font: var(--body-18semiBold);
+  }
+  .personal-data {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 1rem;
+    padding-block: 1rem;
+    row-gap: 0.5rem;
+    grid-template-areas: 'name lastName' 'email email';
+  }
+  .name {
+    grid-area: name;
+  }
+  .email {
+    grid-area: email;
+  }
+  .last-name {
+    grid-area: lastName;
+  }
+  .pay-method {
+    display: grid;
+    padding-block: 1rem;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 'target target' 'date cvv';
+    column-gap: 1rem;
+    row-gap: 0.5rem;
+  }
+  .target {
+    grid-area: target;
+  }
+  .date {
+    grid-area: date;
+  }
+  .cvv {
+    grid-area: cvv;
+  }
+}
+
+.checkout-form-content {
+  background-color: var(--gray);
+  padding: 1.5rem;
+}
+.total {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+}
+
+.total-title {
+  font: var(--body-18regular);
+}
