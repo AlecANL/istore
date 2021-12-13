@@ -4,6 +4,7 @@
   overflow: hidden;
   border-radius: 0.5rem;
 }
+
 .c-product-title {
   overflow: hidden;
   max-width: 280px;
@@ -147,15 +148,21 @@
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
+  background-color: #f0eff2;
 }
 .button-quantity button {
   background-color: unset;
   border: 1px solid transparent;
   font-size: 1.5rem;
+  cursor: pointer;
+  background-color: #e7e7ef;
 }
 .button-quantity span {
   font: var(--body-18regular);
 }
 .total-title {
   font: var(--body-18regular);
+}
+.headline {
+  margin-block: 2rem;
 }
