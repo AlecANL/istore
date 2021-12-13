@@ -14,8 +14,6 @@
   justify-content: center;
 }
 .btn-shop {
-  grid-area: btnCart;
-  order: 2;
 }
 .btn-menu {
   grid-area: menuIcon;

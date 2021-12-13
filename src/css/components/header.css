@@ -4,7 +4,9 @@
   padding: 1rem;
   position: sticky;
   inset-block-start: 0;
-  background-color: var(--bgshade);
+  background-color: var(--bgShade);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
 }
 .header-content {
   display: grid;
@@ -12,10 +14,13 @@
   grid-template-areas: 'searchBox menuIcon' 'btnCart btnCart';
   gap: 1rem;
 }
-
 .logo {
   display: none;
 }
+.logo img {
+  vertical-align: middle;
+}
+
 @media screen and (min-width: 768px) {
   .header-content {
     display: flex;
@@ -23,5 +28,14 @@
   }
   .logo {
     display: block;
+  }
+  .header__cart-button {
+    grid-area: btnCart;
+    order: 2;
+    margin-inline: 1rem;
+    padding-block: 0.5re;
+  }
+  .header__cart-button button {
+    vertical-align: middle;
   }
 }

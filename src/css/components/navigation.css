@@ -9,6 +9,6 @@
   }
   .navigation__list {
     display: flex;
-    gap: 3rem;
+    gap: 1rem;
   }
 }

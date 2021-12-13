@@ -124,13 +124,13 @@
   background-color: var(--gray);
   padding: 1.5rem;
 }
-.cart-form input {
+/* .cart-form input {
   padding-inline: 1rem;
   padding-block: 0.5rem;
   border: 1px solid #8a8fb9;
   border-radius: 0.25rem;
   inline-size: 100%;
-}
+} */
 .checkout-content .price {
   font: var(--body-18regular);
 }
