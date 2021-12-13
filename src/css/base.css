@@ -20,6 +20,7 @@
   --body-18regular_u: 400 1.125rem/2rem var(--baseFont);
   --body-16regular: 400 1rem/1.5rem var(--baseFont);
   --body-18semiBold: 600 1.125rem/2rem var(--baseFont);
+  --smallBold: 600 14px / 1rem var(--baseFont);
 }
 
 body {
