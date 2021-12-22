@@ -11,7 +11,7 @@ export function CardOffer() {
       <article className={classnames(styles['card'])}>
         <div className={classnames(styles['card-description'])}>
           <h3>Awesome Text</h3>
-          <Button>Buy now</Button>
+          <Button>Buy now </Button>
         </div>
         <Picture src='/assets/images/apple-watch.png' alt='apple watch image' />
       </article>
