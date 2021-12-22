@@ -1,3 +1,6 @@
 .picture {
   display: inline-block;
 }
+.picture img {
+  vertical-align: middle;
+}

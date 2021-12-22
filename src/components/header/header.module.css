@@ -12,15 +12,8 @@
   grid-template-areas: 'searchBox menuIcon' 'btnCart btnCart';
   gap: 1rem;
 }
-<<<<<<< HEAD:src/components/header/header.module.css
 .header picture {
-=======
-.logo {
->>>>>>> 9f01d8e70b67ea53779f18a8ee15d4ddd9386f8b:src/css/components/header.css
   display: none;
-}
-.logo img {
-  vertical-align: middle;
 }
 
 @media screen and (min-width: 768px) {
@@ -30,14 +23,5 @@
   }
   .header picture {
     display: block;
-  }
-  .header__cart-button {
-    grid-area: btnCart;
-    order: 2;
-    margin-inline: 1rem;
-    padding-block: 0.5re;
-  }
-  .header__cart-button button {
-    vertical-align: middle;
   }
 }

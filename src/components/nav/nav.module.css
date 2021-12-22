@@ -10,10 +10,6 @@
   }
   .nav ul {
     display: flex;
-<<<<<<< HEAD:src/components/nav/nav.module.css
     gap: 1.5rem;
-=======
-    gap: 1rem;
->>>>>>> 9f01d8e70b67ea53779f18a8ee15d4ddd9386f8b:src/css/components/navigation.css
   }
 }
