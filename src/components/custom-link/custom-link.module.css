@@ -1,0 +1,7 @@
+.link {
+  font: var(--body-18regular);
+  color: var(--text);
+  text-transform: capitalize;
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+}

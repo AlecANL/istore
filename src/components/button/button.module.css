@@ -1,0 +1,49 @@
+.btn {
+  display: inline-flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+  font: var(--body-16regular);
+  border: 1px solid transparent;
+  padding-block: 0.5rem;
+  padding-inline: 1.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+}
+.btn:active {
+  transform: scale(0.96);
+}
+
+.color-primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.color-secondary {
+  background-color: var(--white);
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+/* .btn-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn-shop {
+  grid-area: btnCart;
+  order: 2;
+}
+.btn-menu {
+  grid-area: menuIcon;
+  background-color: unset;
+}
+.is-white {
+  border-color: var(--primary);
+}
+
+@media screen and (min-width: 768px) {
+  .btn-menu {
+    display: none;
+  }
+} */
