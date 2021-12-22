@@ -1,15 +1,17 @@
 import React from 'react'
 
-import { Home } from './pages/home'
+// import { Home } from './pages/home'
 
 import { Header } from './components/header'
 import { Nav } from './components/nav'
 import { Form } from './components/form'
-
-import { INavLinks } from './interfaces'
 import { InputText } from './components/inputText'
 import { Button } from './components/button'
 import { Picture } from './components/picture'
+
+import { INavLinks } from './interfaces'
+import { Product } from './pages/product'
+import { productsMocks } from './mocks/products'
 
 const navList: INavLinks[] = [
   {
@@ -57,7 +59,8 @@ function App() {
           <span>0</span>
         </Button>
       </Header>
-      <Home />
+      {/* <Home /> */}
+      <Product product={productsMocks[0]} />
     </div>
   )
 }

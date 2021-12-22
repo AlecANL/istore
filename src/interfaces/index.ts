@@ -19,4 +19,6 @@ export interface IProduct {
   vote_average: string
   price: number
   discount?: number
+  large_title: string
+  features: string[]
 }

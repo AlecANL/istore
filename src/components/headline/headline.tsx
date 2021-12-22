@@ -5,7 +5,7 @@ import styles from './headline.module.css'
 
 interface IHeadlineProps extends React.HTMLAttributes<HTMLHeadingElement> {
   type: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6'
-  children: JSX.Element | JSX.Element | string
+  children: JSX.Element | JSX.Element | string | string[]
 }
 
 export function Headline(props: IHeadlineProps) {
