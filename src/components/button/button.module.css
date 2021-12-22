@@ -25,6 +25,9 @@
   color: var(--primary);
   border-color: var(--primary);
 }
+.color-default {
+  background-color: var(--color-default);
+}
 
 /* .btn-icon {
   display: flex;

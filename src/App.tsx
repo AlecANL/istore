@@ -1,6 +1,8 @@
 import React from 'react'
 
+import { Checkout } from './pages/checkout'
 // import { Home } from './pages/home'
+// import { Product } from './pages/product'
 
 import { Header } from './components/header'
 import { Nav } from './components/nav'
@@ -9,27 +11,9 @@ import { InputText } from './components/inputText'
 import { Button } from './components/button'
 import { Picture } from './components/picture'
 
-import { INavLinks } from './interfaces'
-import { Product } from './pages/product'
-import { productsMocks } from './mocks/products'
+// import { productsMocks } from './mocks/products'
 
-const navList: INavLinks[] = [
-  {
-    id: '1',
-    name: 'products',
-    value: 'products',
-  },
-  {
-    id: '2',
-    name: 'store',
-    value: 'store',
-  },
-  {
-    id: '3',
-    name: 'contact',
-    value: 'contact',
-  },
-]
+import { navList } from './constants'
 
 function App() {
   return (
@@ -42,7 +26,6 @@ function App() {
           height={40}
         />
         <Nav links={navList} />
-
         <Form className='search-box'>
           <InputText
             name='search'
@@ -60,7 +43,8 @@ function App() {
         </Button>
       </Header>
       {/* <Home /> */}
-      <Product product={productsMocks[0]} />
+      {/* <Product product={productsMocks[0]} /> */}
+      <Checkout />
     </div>
   )
 }

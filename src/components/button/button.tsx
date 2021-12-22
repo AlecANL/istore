@@ -5,7 +5,7 @@ import styles from './button.module.css'
 
 interface IButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   type: 'button' | 'reset' | 'submit'
-  color: 'primary' | 'secondary'
+  color: 'primary' | 'secondary' | 'default' | 'transparent'
   children: JSX.Element | JSX.Element[] | string
   onClick?: (event: React.MouseEvent<HTMLButtonElement>) => void
   style?: React.CSSProperties

@@ -13,7 +13,7 @@ export function Headline(props: IHeadlineProps) {
   const Heading = type
   return (
     <Heading
-      className={classnames('', {
+      className={classnames('heading', {
         [styles[`heading-${type}`]]: type,
       })}
       {...otherProps}

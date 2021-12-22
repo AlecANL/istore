@@ -108,7 +108,7 @@ export const productsMocks: IProduct[] = [
       'Nintendo Switch 32GB Standard color rojo neón, azul neón y negro',
     description:
       'Switch se convirtió en una de las consolas más versátiles del mercado gracias a su uso portátil y de sobremesa. Nintendo desarrolló este modelo con el objetivo de tener todas las comodida...',
-    cover: '/assets/images/game-2.png',
+    cover: '/assets/images/game-1.png',
     price: 7_193,
     vote_average: '4',
     features: [
