@@ -8,9 +8,9 @@ IStore
 
 ## Overview
 
-![scrennshot](/src/assets/images/page1.png)
-![scrennshot](/src/assets/images/page2.png)
-![scrennshot](/src/assets/images/page3.png)
+![scrennshot](/public/assets/images/page1.png)
+![scrennshot](/public/assets/images/page2.png)
+![scrennshot](/public/assets/images/page3.png)
 
 ## Créditos
 
