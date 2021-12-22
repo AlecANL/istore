@@ -1,0 +1,5 @@
+.hero {
+  background-color: var(--softBlue);
+  background: linear-gradient(105.15deg, #4e5aff 0%, #5d8dff 100%);
+  padding: 1rem;
+}

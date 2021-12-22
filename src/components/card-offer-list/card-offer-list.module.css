@@ -1,0 +1,11 @@
+.card-offer-list {
+  overflow: hidden;
+  display: flex;
+  gap: 2.5rem;
+}
+@media screen and (min-width: 768px) {
+  .card-offer-list {
+    padding: 2rem;
+    block-size: 410px;
+  }
+}
