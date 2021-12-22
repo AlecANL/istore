@@ -1,0 +1,24 @@
+.hero {
+  background-color: var(--softBlue);
+  background: linear-gradient(105.15deg, #4e5aff 0%, #5d8dff 100%);
+  padding: 1rem;
+}
+
+.hero-content {
+  overflow: hidden;
+  display: flex;
+  gap: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding: 2rem;
+    block-size: 410px;
+  }
+  .hero .wrapper {
+    block-size: 100%;
+  }
+  .hero-content {
+    block-size: 100%;
+  }
+}

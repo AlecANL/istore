@@ -1,16 +1,16 @@
 :root {
-  --bgshade: #eeeffb;
-  --greytext: #151875;
+  --bgShade: #eeeffb;
+  --greyText: #151875;
   --primary: #fb2e86;
   --white: #ffffff;
   --baseFont: 'Inter', sans-serif;
-  --linerbg: linear-gradient(32deg, #f3f9ff 0%, #f1f0ff 100%);
-  --mintgreengradiant: linear-gradient(42deg, #36e6d5 0%, #29e871 100%);
+  --linerBg: linear-gradient(32deg, #f3f9ff 0%, #f1f0ff 100%);
+  --mintGreenGradiant: linear-gradient(42deg, #36e6d5 0%, #29e871 100%);
   --text: #151875;
   --softBlue: #4853c2;
   --red: #fb2448;
-  --subtextcolor: linear-gradient(32deg, #f3f9ff 0%, #f1f0ff 100%);
-  --subtextcolor: #8a8fb9;
+  --subtextColor: linear-gradient(32deg, #f3f9ff 0%, #f1f0ff 100%);
+  --subtextColor: #8a8fb9;
   --bg: #ebebeb;
   --black: #111111;
   --gray: #f4f4fc;
@@ -19,12 +19,13 @@
   --body-18regular: 400 1.125rem/2rem var(--baseFont);
   --body-18regular_u: 400 1.125rem/2rem var(--baseFont);
   --body-16regular: 400 1rem/1.5rem var(--baseFont);
-  --body-18semibold: 600 1.125rem/2rem var(--baseFont);
+  --body-18semiBold: 600 1.125rem/2rem var(--baseFont);
+  --smallBold: 600 14px / 1rem var(--baseFont);
 }
 
 body {
-  background-color: var(--bgshade);
-  font: var(--subtitles-22bold);
+  background-color: var(--bgShade);
+  font: var(--body-18regular);
   margin: 0;
 }
 ul {
@@ -56,6 +57,7 @@ img {
 *::after {
   box-sizing: border-box;
 }
+.debug,
 .debug > * {
   outline: 1px solid red;
 }

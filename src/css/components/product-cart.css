@@ -1,0 +1,25 @@
+.product-cart {
+  display: grid;
+  padding-block: 0.5rem;
+  grid-template-columns: 2fr 1fr 1fr 100px;
+  border-block-end: 1px solid rgb(209, 209, 209);
+  padding-inline: 0.5rem;
+  gap: 1rem;
+}
+
+.product-cart__headline {
+  align-items: center;
+  gap: 1rem;
+  display: flex;
+}
+.product-cart__title {
+  overflow: hidden;
+  max-width: 280px;
+}
+.product-cart__title,
+.product-cart__total {
+  font: var(--body-18semiBold);
+}
+.product-cart__price {
+  font: var(--body-18regular);
+}

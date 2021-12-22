@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -44,3 +45,24 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+=======
+<div align="center">
+<img width="120px"  src="https://raw.githubusercontent.com/no-te-rindas/logo/main/Logo/LeonidasEsteban-destello-envolvente-cuadrada.png" />
+</div>
+
+<h1 align="center">
+IStore
+</h1>
+
+## Overview
+
+![scrennshot](/src/assets/images/page1.png)
+![scrennshot](/src/assets/images/page2.png)
+![scrennshot](/src/assets/images/page3.png)
+
+## Créditos
+
+Encuentra más proyectos asombrosos en [/Proyectos](https://leonidasesteban.com/proyectos)
+
+Diseñado con ♥️ en leonidasesteban.com
+>>>>>>> 9f01d8e70b67ea53779f18a8ee15d4ddd9386f8b
