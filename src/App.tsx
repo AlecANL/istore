@@ -1,7 +1,7 @@
 import React from 'react'
 
-import { Checkout } from './pages/checkout'
-// import { Home } from './pages/home'
+// import { Checkout } from './pages/checkout'
+import { Home } from './pages/home'
 // import { Product } from './pages/product'
 
 import { Header } from './components/header'
@@ -42,9 +42,9 @@ function App() {
           <span>0</span>
         </Button>
       </Header>
-      {/* <Home /> */}
+      <Home />
       {/* <Product product={productsMocks[0]} /> */}
-      <Checkout />
+      {/* <Checkout /> */}
     </div>
   )
 }

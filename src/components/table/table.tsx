@@ -2,6 +2,7 @@ import { TableHead } from './table-head'
 import { TableBody } from './table-body'
 
 import styles from './table.module.css'
+import classnames from 'classnames'
 
 interface ITableProps {
   children: JSX.Element | JSX.Element[]
@@ -10,7 +11,7 @@ interface ITableProps {
 export function Table(props: ITableProps) {
   const { children } = props
 
-  return <section className={styles['table']}>{children}</section>
+  return <section className={classnames(styles['table'])}>{children}</section>
 }
 
 Table.Head = TableHead

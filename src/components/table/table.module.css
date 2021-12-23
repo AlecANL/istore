@@ -8,7 +8,9 @@
     grid-template-columns: 2fr 1fr 1fr 100px;
     margin-block-end: 1rem;
     gap: 1rem;
+    place-items: center;
     text-transform: capitalize;
+    margin-inline-end: 0.5rem;
   }
   .table-body {
     overflow: auto;

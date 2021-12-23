@@ -8,7 +8,6 @@
 .checkout-form-content {
   background-color: var(--gray);
   padding: 1.5rem;
-  margin-block: 1.5rem;
 }
 .total {
   display: flex;
